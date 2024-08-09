@@ -9,21 +9,44 @@
 /* Begin PBXBuildFile section */
 		5436D7B92C64E3500090DECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436D7B82C64E3500090DECB /* AppDelegate.swift */; };
 		5436D7BB2C64E3500090DECB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436D7BA2C64E3500090DECB /* SceneDelegate.swift */; };
-		5436D7BD2C64E3500090DECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436D7BC2C64E3500090DECB /* ViewController.swift */; };
+		5436D7BD2C64E3500090DECB /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436D7BC2C64E3500090DECB /* CategoriesViewController.swift */; };
 		5436D7C02C64E3500090DECB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5436D7BF2C64E3500090DECB /* Base */; };
 		5436D7C22C64E3510090DECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5436D7C12C64E3510090DECB /* Assets.xcassets */; };
 		5436D7C52C64E3510090DECB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5436D7C42C64E3510090DECB /* Base */; };
+		5436D7CE2C654DA20090DECB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5436D7CD2C654DA20090DECB /* Kingfisher */; };
+		5436D7D02C655F6A0090DECB /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436D7CF2C655F6A0090DECB /* BaseCell.swift */; };
+		5436D7D22C655F910090DECB /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436D7D12C655F910090DECB /* ProductCell.swift */; };
+		5436D7D42C655FA90090DECB /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436D7D32C655FA90090DECB /* CategoryCell.swift */; };
+		5436D7D72C6560620090DECB /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436D7D62C6560620090DECB /* ProductsViewController.swift */; };
+		5436D7DC2C6561C00090DECB /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436D7DB2C6561C00090DECB /* CategoriesViewModel.swift */; };
+		5436D7DF2C6562D10090DECB /* ProductRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436D7DE2C6562D10090DECB /* ProductRepository.swift */; };
+		5436D7E12C65630B0090DECB /* ProductRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436D7E02C65630A0090DECB /* ProductRepositoryImpl.swift */; };
+		5436D7E32C65D8080090DECB /*  Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436D7E22C65D8080090DECB /*  Array.swift */; };
+		5436D7E62C65E3C70090DECB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436D7E52C65E3C70090DECB /* Constants.swift */; };
+		87AF404BADA8D7ABFE9B0C05 /* Pods_VodovozTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA216A9D7A0EC27F0B8DEA4 /* Pods_VodovozTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5436D7B52C64E3500090DECB /* VodovozTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VodovozTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5436D7B82C64E3500090DECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5436D7BA2C64E3500090DECB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5436D7BC2C64E3500090DECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5436D7BC2C64E3500090DECB /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		5436D7BF2C64E3500090DECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5436D7C12C64E3510090DECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5436D7C42C64E3510090DECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5436D7C62C64E3510090DECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5436D7CF2C655F6A0090DECB /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		5436D7D12C655F910090DECB /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		5436D7D32C655FA90090DECB /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		5436D7D62C6560620090DECB /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		5436D7DB2C6561C00090DECB /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
+		5436D7DE2C6562D10090DECB /* ProductRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRepository.swift; sourceTree = "<group>"; };
+		5436D7E02C65630A0090DECB /* ProductRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRepositoryImpl.swift; sourceTree = "<group>"; };
+		5436D7E22C65D8080090DECB /*  Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Array.swift"; sourceTree = "<group>"; };
+		5436D7E52C65E3C70090DECB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7AA216A9D7A0EC27F0B8DEA4 /* Pods_VodovozTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VodovozTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9130BC8AE6FC8EFC6229057D /* Pods-VodovozTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VodovozTest.release.xcconfig"; path = "Target Support Files/Pods-VodovozTest/Pods-VodovozTest.release.xcconfig"; sourceTree = "<group>"; };
+		ED4F254B098E91F49665D136 /* Pods-VodovozTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VodovozTest.debug.xcconfig"; path = "Target Support Files/Pods-VodovozTest/Pods-VodovozTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5436D7CE2C654DA20090DECB /* Kingfisher in Frameworks */,
+				87AF404BADA8D7ABFE9B0C05 /* Pods_VodovozTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52DD33D44CED299551F89410 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED4F254B098E91F49665D136 /* Pods-VodovozTest.debug.xcconfig */,
+				9130BC8AE6FC8EFC6229057D /* Pods-VodovozTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5436D7AC2C64E34F0090DECB = {
 			isa = PBXGroup;
 			children = (
 				5436D7B72C64E3500090DECB /* VodovozTest */,
 				5436D7B62C64E3500090DECB /* Products */,
+				52DD33D44CED299551F89410 /* Pods */,
+				B74958F0C9506C1D27268D14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,88 @@
 		5436D7B72C64E3500090DECB /* VodovozTest */ = {
 			isa = PBXGroup;
 			children = (
-				5436D7B82C64E3500090DECB /* AppDelegate.swift */,
 				5436D7BA2C64E3500090DECB /* SceneDelegate.swift */,
-				5436D7BC2C64E3500090DECB /* ViewController.swift */,
+				5436D7B82C64E3500090DECB /* AppDelegate.swift */,
+				5436D7DD2C65628E0090DECB /* Repository */,
+				5436D7D82C6561590090DECB /* Controllers */,
+				5436D7E42C65D8120090DECB /* Extensions */,
+				5436D7E72C65E3D40090DECB /* Helpers */,
 				5436D7BE2C64E3500090DECB /* Main.storyboard */,
 				5436D7C12C64E3510090DECB /* Assets.xcassets */,
 				5436D7C32C64E3510090DECB /* LaunchScreen.storyboard */,
 				5436D7C62C64E3510090DECB /* Info.plist */,
 			);
 			path = VodovozTest;
+			sourceTree = "<group>";
+		};
+		5436D7D52C655FC50090DECB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5436D7CF2C655F6A0090DECB /* BaseCell.swift */,
+				5436D7D12C655F910090DECB /* ProductCell.swift */,
+				5436D7D32C655FA90090DECB /* CategoryCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5436D7D82C6561590090DECB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5436D7D52C655FC50090DECB /* Views */,
+				5436D7D92C6561700090DECB /* CategoriesViewController */,
+				5436D7DA2C6561790090DECB /* ProductsViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5436D7D92C6561700090DECB /* CategoriesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5436D7DB2C6561C00090DECB /* CategoriesViewModel.swift */,
+				5436D7BC2C64E3500090DECB /* CategoriesViewController.swift */,
+			);
+			path = CategoriesViewController;
+			sourceTree = "<group>";
+		};
+		5436D7DA2C6561790090DECB /* ProductsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5436D7D62C6560620090DECB /* ProductsViewController.swift */,
+			);
+			path = ProductsViewController;
+			sourceTree = "<group>";
+		};
+		5436D7DD2C65628E0090DECB /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				5436D7DE2C6562D10090DECB /* ProductRepository.swift */,
+				5436D7E02C65630A0090DECB /* ProductRepositoryImpl.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		5436D7E42C65D8120090DECB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5436D7E22C65D8080090DECB /*  Array.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5436D7E72C65E3D40090DECB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5436D7E52C65E3C70090DECB /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B74958F0C9506C1D27268D14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AA216A9D7A0EC27F0B8DEA4 /* Pods_VodovozTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +183,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5436D7C92C64E3510090DECB /* Build configuration list for PBXNativeTarget "VodovozTest" */;
 			buildPhases = (
+				7E28B64CA59A9624FA5470AD /* [CP] Check Pods Manifest.lock */,
 				5436D7B12C64E3500090DECB /* Sources */,
 				5436D7B22C64E3500090DECB /* Frameworks */,
 				5436D7B32C64E3500090DECB /* Resources */,
+				7E7FA741AA0B2B356DC1B05D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = VodovozTest;
+			packageProductDependencies = (
+				5436D7CD2C654DA20090DECB /* Kingfisher */,
+			);
 			productName = VodovozTest;
 			productReference = 5436D7B52C64E3500090DECB /* VodovozTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +225,9 @@
 				Base,
 			);
 			mainGroup = 5436D7AC2C64E34F0090DECB;
+			packageReferences = (
+				5436D7CC2C654DA20090DECB /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 5436D7B62C64E3500090DECB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,14 +250,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7E28B64CA59A9624FA5470AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VodovozTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E7FA741AA0B2B356DC1B05D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VodovozTest/Pods-VodovozTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VodovozTest/Pods-VodovozTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VodovozTest/Pods-VodovozTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5436D7B12C64E3500090DECB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5436D7BD2C64E3500090DECB /* ViewController.swift in Sources */,
+				5436D7D02C655F6A0090DECB /* BaseCell.swift in Sources */,
+				5436D7BD2C64E3500090DECB /* CategoriesViewController.swift in Sources */,
+				5436D7E12C65630B0090DECB /* ProductRepositoryImpl.swift in Sources */,
+				5436D7DF2C6562D10090DECB /* ProductRepository.swift in Sources */,
+				5436D7D72C6560620090DECB /* ProductsViewController.swift in Sources */,
+				5436D7D22C655F910090DECB /* ProductCell.swift in Sources */,
 				5436D7B92C64E3500090DECB /* AppDelegate.swift in Sources */,
 				5436D7BB2C64E3500090DECB /* SceneDelegate.swift in Sources */,
+				5436D7DC2C6561C00090DECB /* CategoriesViewModel.swift in Sources */,
+				5436D7E32C65D8080090DECB /*  Array.swift in Sources */,
+				5436D7D42C655FA90090DECB /* CategoryCell.swift in Sources */,
+				5436D7E62C65E3C70090DECB /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +455,13 @@
 		};
 		5436D7CA2C64E3510090DECB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4F254B098E91F49665D136 /* Pods-VodovozTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VodovozTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,11 +484,13 @@
 		};
 		5436D7CB2C64E3510090DECB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9130BC8AE6FC8EFC6229057D /* Pods-VodovozTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VodovozTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -361,6 +533,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5436D7CC2C654DA20090DECB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5436D7CD2C654DA20090DECB /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5436D7CC2C654DA20090DECB /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5436D7AD2C64E34F0090DECB /* Project object */;
 }
